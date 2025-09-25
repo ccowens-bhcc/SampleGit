@@ -4,7 +4,8 @@ public class Students {
         "Student Number27",
         "Student Number07",
         "Student Number08",
-        "Student Number09"
+        "Student Number09",
+        "Chris Owens"
     };
     
     public static void printAll() {
