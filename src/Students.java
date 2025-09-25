@@ -1,8 +1,10 @@
 public class Students {
     static String[] allStudents = {
         "Student McStudentFace", 
-        "Student Number17",
-        "Student Number07"
+        "Student Number27",
+        "Student Number07",
+        "Student Number08",
+        "Student Number09"
     };
     
     public static void printAll() {
