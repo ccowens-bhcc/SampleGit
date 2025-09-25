@@ -6,6 +6,7 @@ public class Students {
     };
     
     public static void printAll() {
+        System.out.println("Beta version!");
         for (String student : allStudents) {
             System.out.println (student);
         }
