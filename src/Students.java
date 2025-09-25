@@ -1,13 +1,14 @@
 public class Students {
     static String[] allStudents = {
-        "Student McStudentFace", // fake names to get started
+        "Student McStudentFace", 
         "Student Number17",
         "Student Number07"
     };
     
     public static void printAll() {
-        for (String student : allStudents) {
-            System.out.println (student);
+        System.out.println("There are " + allStudents.length + " students ");
+        for (int i=1; i<allStudents.length; i++) {
+            System.out.println ("Student " + i +": " + allStudents[i]);
         }
     }
     
